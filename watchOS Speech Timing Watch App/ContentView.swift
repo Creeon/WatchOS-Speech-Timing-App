@@ -6,19 +6,33 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: SelectViewQueueFile()) {
+                    Text("View Files")
+                        .font(.headline)
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                /*NavigationLink(destination: QueueCreationView()) {
+                    Text("Go to Timer")
+                        .font(.headline)
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }*/
+                }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
+/*struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}*/

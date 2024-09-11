@@ -12,6 +12,15 @@
 		249046622C802E4300295549 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249046612C802E4300295549 /* ContentView.swift */; };
 		249046642C802E4D00295549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249046632C802E4D00295549 /* Assets.xcassets */; };
 		249046672C802E4D00295549 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249046662C802E4D00295549 /* Preview Assets.xcassets */; };
+		249046732C803D6D00295549 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249046722C803D6D00295549 /* TestingView.swift */; };
+		249046762C8103BB00295549 /* ProjectTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249046752C8103BB00295549 /* ProjectTimer.swift */; };
+		2490467B2C8113C400295549 /* TimeQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490467A2C8113C400295549 /* TimeQueue.swift */; };
+		2490467D2C81171900295549 /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490467C2C81171900295549 /* QueueView.swift */; };
+		249046822C81700F00295549 /* Files in Resources */ = {isa = PBXBuildFile; fileRef = 249046812C81700F00295549 /* Files */; };
+		249046852C84ACBA00295549 /* SelectViewQueueFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249046842C84ACBA00295549 /* SelectViewQueueFile.swift */; };
+		249046872C84B27000295549 /* QueueCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249046862C84B27000295549 /* QueueCreationView.swift */; };
+		249046892C8967F300295549 /* RunQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249046882C8967F300295549 /* RunQueues.swift */; };
+		2490468B2C91F4AA00295549 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490468A2C91F4AA00295549 /* MessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,15 @@
 		249046612C802E4300295549 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		249046632C802E4D00295549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		249046662C802E4D00295549 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		249046722C803D6D00295549 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		249046752C8103BB00295549 /* ProjectTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTimer.swift; sourceTree = "<group>"; };
+		2490467A2C8113C400295549 /* TimeQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeQueue.swift; sourceTree = "<group>"; };
+		2490467C2C81171900295549 /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
+		249046812C81700F00295549 /* Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Files; sourceTree = "<group>"; };
+		249046842C84ACBA00295549 /* SelectViewQueueFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewQueueFile.swift; sourceTree = "<group>"; };
+		249046862C84B27000295549 /* QueueCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueCreationView.swift; sourceTree = "<group>"; };
+		249046882C8967F300295549 /* RunQueues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunQueues.swift; sourceTree = "<group>"; };
+		2490468A2C91F4AA00295549 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,9 @@
 		2490465E2C802E4300295549 /* watchOS Speech Timing Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				249046812C81700F00295549 /* Files */,
+				249046742C81039400295549 /* Utils */,
+				249046712C803D4700295549 /* Views */,
 				2490465F2C802E4300295549 /* watchOS_Speech_TimingApp.swift */,
 				249046612C802E4300295549 /* ContentView.swift */,
 				249046632C802E4D00295549 /* Assets.xcassets */,
@@ -92,6 +113,28 @@
 				249046662C802E4D00295549 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		249046712C803D4700295549 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				249046722C803D6D00295549 /* TestingView.swift */,
+				2490467C2C81171900295549 /* QueueView.swift */,
+				249046842C84ACBA00295549 /* SelectViewQueueFile.swift */,
+				249046862C84B27000295549 /* QueueCreationView.swift */,
+				249046882C8967F300295549 /* RunQueues.swift */,
+				2490468A2C91F4AA00295549 /* MessageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		249046742C81039400295549 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				249046752C8103BB00295549 /* ProjectTimer.swift */,
+				2490467A2C8113C400295549 /* TimeQueue.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249046822C81700F00295549 /* Files in Resources */,
 				249046672C802E4D00295549 /* Preview Assets.xcassets in Resources */,
 				249046642C802E4D00295549 /* Assets.xcassets in Resources */,
 			);
@@ -192,8 +236,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2490467D2C81171900295549 /* QueueView.swift in Sources */,
+				249046852C84ACBA00295549 /* SelectViewQueueFile.swift in Sources */,
+				249046732C803D6D00295549 /* TestingView.swift in Sources */,
+				249046762C8103BB00295549 /* ProjectTimer.swift in Sources */,
+				2490468B2C91F4AA00295549 /* MessageView.swift in Sources */,
 				249046622C802E4300295549 /* ContentView.swift in Sources */,
 				249046602C802E4300295549 /* watchOS_Speech_TimingApp.swift in Sources */,
+				249046892C8967F300295549 /* RunQueues.swift in Sources */,
+				2490467B2C8113C400295549 /* TimeQueue.swift in Sources */,
+				249046872C84B27000295549 /* QueueCreationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
